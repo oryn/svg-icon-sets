@@ -1,0 +1,31 @@
+html {
+  margin: 0;
+  background-image: linear-gradient(#ff9500, #ff5e3a);
+  background-size: cover;
+  font-family: Overpass, sans-serif;
+  color: #fff;
+}
+
+.btn {
+  border: #fff solid 2px;
+  color: #fff;
+  font-family: Overpass, sans-serif;
+}
+
+.btn:hover {
+  background-color: rgba(255, 255, 255, 1);
+  color: #ff5e3a;
+  border: #fff solid 2px;
+}
+
+.coms-center {
+  border-bottom: rgba(255, 255, 255, .5) 2px solid;
+}
+
+@media only screen and (min-width: 60em) {
+
+  .part-b {
+    padding-top: 40px;
+  }
+
+}
